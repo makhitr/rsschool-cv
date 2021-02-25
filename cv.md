@@ -11,6 +11,7 @@ Goal-oriented Junior JavaScript Developer  with 1+ year of experience in JavaScr
 * Spring MVC
 ***
 **Code:**
+```
 function countCats(backyard) {
       for (let i=0; i < backyard.length; i++) {
         for (let value of backyard[i]) {
@@ -19,6 +20,7 @@ function countCats(backyard) {
       }
   return n;
 }
+```
 ***
 **Experience:**
 ***
