@@ -1,0 +1,168 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  background: #fffffe;
+  margin: 0 auto;
+  font-family: georgia;
+  max-width: 900px;
+  background-color: #eeeeee;
+}
+
+.container {
+  /*  border: 2px solid #000;*/
+  background-color: rgb(214, 213, 213);
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+header h1 {
+  color: rgb(26, 48, 48);
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-bottom: 2px solid #6d4e1c;
+  margin-bottom: 10px;
+  margin-top: 21.44px;
+}
+
+header h2 {
+  color: rgb(62, 105, 105);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 40px;
+  text-align: left;
+  font-size: 80%;
+  margin-bottom: 25px;
+}
+
+.contact__info {
+  display: block;
+  color: rgb(255, 255, 255);
+  background: #0c1011;
+  height: 50px;
+  background: #000;
+}
+
+header a {
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-evenly;
+}
+
+.contact li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact li a:hover {
+ color:#a56937;
+}
+
+.contact li {
+  margin-right: 50px;
+  list-style-type: none;
+  /* font-size: 16px; */
+}
+
+header img {
+  display: block;
+  padding: 5px;
+  margin: 5px 5px;
+  float: right;
+  height: 200px;
+}
+
+header ul {
+  margin: 0;
+  background: #000;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+main h3 {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.section {
+  width: 80%;
+}
+main aside {
+  flex: 1;
+  background: #ccc;
+  padding: 18px;
+  margin-top: -26px;
+  width: auto;
+  padding-left: 25px;
+  width: 20%;
+}
+
+aside h2 {
+  margin-top: 50px;
+  color: rgb(26, 48, 48);
+}
+
+main div {
+  flex: 2;
+}
+
+.main__info {
+  margin-bottom: 50px;
+}
+
+aside ul {
+  margin-bottom: 70px;
+}
+
+pre {
+  line-height: 16px;
+  color: #09060e;
+  font-size: 16px;
+}
+
+p {
+  padding-right: 30px;
+  text-align: justify;
+}
+
+footer {
+  background: 	#856041;
+  padding: 10px;
+  color: #000;
+}
+
+.footer {
+  text-decoration: none;
+  display: flex;
+}
+footer li {
+  margin-right: 50px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+footer img {
+  height: 20px;
+}
+
+.time {
+  margin-top: 5px;
+  color: rgb(26, 25, 25);
+}
+
+.footer li a {
+  text-decoration: none;
+  color: rgb(26, 25, 25);
+  margin-left: 10px;
+}
