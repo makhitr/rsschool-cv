@@ -1,4 +1,4 @@
-body {
+.wrapper {
   display: flex;
   flex-direction: column;
   color: #404040;
@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   font-family: georgia;
   max-width: 900px;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -56,12 +57,17 @@ header a {
 
 .contact li a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+.contact li a:hover {
+ color:#a56937;
 }
 
 .contact li {
   margin-right: 50px;
   list-style-type: none;
-  font-size: 12px;
+  /* font-size: 16px; */
 }
 
 header img {
@@ -89,7 +95,9 @@ main h3 {
   text-transform: uppercase;
   margin-top: 50px;
 }
-
+.section {
+  width: 80%;
+}
 main aside {
   flex: 1;
   background: #ccc;
@@ -97,6 +105,7 @@ main aside {
   margin-top: -26px;
   width: auto;
   padding-left: 25px;
+  width: 20%;
 }
 
 aside h2 {
@@ -117,9 +126,11 @@ aside ul {
 }
 
 pre {
-  line-height: 0.7em;
+  line-height: 16px;
   color: #09060e;
+  font-size: 16px;
 }
+
 p {
   padding-right: 30px;
   text-align: justify;
