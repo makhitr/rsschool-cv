@@ -1,22 +1,35 @@
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  color: #404040;
-  background: #fffffe;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap');
+
+body {
+  background-color: #cccccc;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.page-wrapper {
+  max-width: 1000px;
+  background-color: aqua;
+  height: 800px;
   margin: 0 auto;
-  font-family: georgia;
-  max-width: 900px;
-  background-color: #eeeeee;
 }
 
-.container {
-  /*  border: 2px solid #000;*/
+.header-wrapper {
+  max-width: 100%;
   background-color: rgb(214, 213, 213);
-  margin-top: 0px;
-  padding-top: 20px;
+  position: relative;
+  /* margin-top: 0px;
+  padding-top: 20px; */
 }
 
-header h1 {
+
+.header h1 {
   color: rgb(26, 48, 48);
   text-transform: uppercase;
   padding-top: 20px;
@@ -28,31 +41,39 @@ header h1 {
   margin-top: 21.44px;
 }
 
-header h2 {
+.header h2 {
   color: rgb(62, 105, 105);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 40px;
   text-align: left;
-  font-size: 80%;
+  font-family: Ruda, sans-serif;
+  /* font-size: 80%; */
   margin-bottom: 25px;
 }
 
 .contact__info {
   display: block;
+  font-family: Ruda, sans-serif;
   color: rgb(255, 255, 255);
   background: #0c1011;
-  height: 50px;
-  background: #000;
+  height: 80px;
 }
 
-header a {
+.header a {
   color: #fff;
+}
+.avatar_img {
+  display: block;
+  position: absolute; 
+  height: 250px;
+  top: 10px;
+  right: 10px;
 }
 
 .contact {
   display: flex;
-  padding-top: 25px;
-  justify-content: space-evenly;
+  justify-content: left;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .contact li a {
@@ -67,8 +88,21 @@ header a {
 .contact li {
   margin-right: 50px;
   list-style-type: none;
-  /* font-size: 16px; */
 }
+
+/* 
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  background: #fffffe;
+  margin: 0 auto;
+  font-family: georgia;
+  max-width: 900px;
+  background-color: #eeeeee;
+}
+
 
 header img {
   display: block;
@@ -165,4 +199,4 @@ footer img {
   text-decoration: none;
   color: rgb(26, 25, 25);
   margin-left: 10px;
-}
+} */

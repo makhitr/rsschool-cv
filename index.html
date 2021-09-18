@@ -1,128 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Khitrovo</title>
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
-  <div class="wrapper">
-    <!-- шапка с фото и контактами-->
-    <header>
-      <div class="container">
-        <img src="https://static.wikia.nocookie.net/weeds/images/d/dd/NancyBotwin.jpg" alt="avatar" />
-        <h1>
-          Marina <br />
-          <span class="surname">Khitrovo</span>
-        </h1>
-        <h2>
-          Junior Front-End <br />
-          Developer
-        </h2>
-        <div class="contact__info">
-          <ul class="contact">
-            <li class="contact__info">
-              Phone: <br /><a href="tel:+79636394491"> +7 963 639 4491</a>
-            </li>
-            <li class="contact__info">
-              E-mail:<br />
-              <a href="mailto:marina@khitrovo.ru"> marina@khitrovo.ru</a>
-            </li>
-            <li class="contact__info">
-              Telegramm: <br />
-              <a href="https://t.me/makhitr">t.me/makhitr</a>
-            </li>
-            <li class="contact__info">
-              Address:<br />
-              Russia, Moscow
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <!-- основная часть -->
-    <main>
-      <!-- описание -->
-      <section class="section">
-        <h3>Profile:</h3>
-        <p class="main__info">
-          Goal-oriented Junior Front-End Developer with 1+ year of experience
-          in JavaScript and HTML able to work well independently or as a part
-          of a professional computer development team.
-        </p>
-        <!-- скиллы -->
-        <h3>Education:</h3>
-        <ul>
-          <li>Coursera</li>
-          <li>Stepik</li>
-        </ul>
-        <h3>Code:</h3>
-        <div class="code">
-          Kata from CodeWars: Validate password.
-          Passwords must abide by the following requirements:<br>
-          More than 3 characters but less than 20. Must contain only alphanumeric characters. Must contain letters and
-          numbers.
-          <pre>
-            <code>
-            function validPass(password){
-              let psw = /^(?=.*[0-9])(?=.*[a-zA-Z])[a-zA-Z0-9]{4,19}$/
-              .test(password);
-              return (psw == true) ? 'VALID' : 'INVALID';
-            }
-          </code>
-      </pre>
-        </div>
-        <h3>Experience:</h3>
-        <h4>Company name - 2020</h4>
-        <p class="main__info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla magna eget augue sollicitudin varius. Vivamus purus arcu,
-          volutpat in dictum a, cursus at ante. Duis vel vestibulum tortor.
-          Proin vitae elementum urna, eu tempus nisl. Nunc at posuere felis, a
-          luctus nisl. Praesent non pretium nulla, vel laoreet elit.
-          Vestibulum vel laoreet felis. Mauris ut aliquet purus, at
-          condimentum enim. Nunc sed luctus dui. Fusce orci sapien, bibendum
-          vitae eros id, efficitur finibus nunc. Nullam malesuada ornare ex.
-          Curabitur eu gravida lacus, nec maximus quam.
-        </p>
-      </section>
-      <!--боковая часть -->
-      <aside>
-        <section>
-          <h2>Skills:</h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>GIT</li>
-            <li>REACT</li>
-          </ul>
-          <h2>Language:</h2>
-          <ul>
-            <li>English:<br />intermediate</li>
-            <li>Russian: <br />native</li>
-          </ul>
-        </section>
-      </aside>
-    </main>
-    <!-- подвал -->
-    <footer>
-      <ul class="footer">
-        <li class="time"><time>2021</time></li>
-        <li>
-          <a href="https://github.com/makhitr">
-            <img src="./img/github.svg" alt="github profile" />Github</a>
-        </li>
-        <li class="school"><a href="https://rs.school/js/">
-            <img class="school" src="https://rs.school/images/rs_school_js.svg" alt="RS school" /></a>
-        </li>
-      </ul>
-    </footer>
-  </div>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header-wrapper">
+              <img class="avatar_img" src="https://static.wikia.nocookie.net/weeds/images/d/dd/NancyBotwin.jpg" alt="avatar" />
+              <h1>
+                Marina <br />
+                <span class="surname">Khitrovo</span>
+              </h1>
+              <h2>
+                Junior Front-End <br />
+                Developer
+              </h2>
+              <div class="contact__info">
+                <ul class="contact">
+                  <li >
+                    Phone: <br /><a href="tel:+79636394491"> +7 963 639 4491</a>
+                  </li>
+                  <li >
+                    E-mail:<br />
+                    <a href="mailto:marina@khitrovo.ru"> marina@khitrovo.ru</a>
+                  </li>
+                  <li >
+                    Telegramm: <br />
+                    <a href="https://t.me/makhitr">t.me/makhitr</a>
+                  </li>
+                  <li >
+                    Address:<br />
+                    Russia, Moscow
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </header>
+    </div>
+    
 </body>
-
 </html>
