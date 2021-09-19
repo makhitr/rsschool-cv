@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap');
 
 body {
-  background-color: #cccccc;
+  background-color: #f3f0f0;
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
 }
@@ -10,20 +10,26 @@ body {
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .page-wrapper {
   max-width: 1000px;
-  background-color: aqua;
+  background-color: rgb(214, 213, 213);
   height: 800px;
   margin: 0 auto;
+  box-shadow: 10px 5px 5px rgb(133, 133, 133);
+}
+
+.wrapper {  
+  max-width: 100%;
+  padding-top: 25px;
+  padding-left: 40px;
 }
 
 .header-wrapper {
-  max-width: 100%;
   background-color: rgb(214, 213, 213);
   position: relative;
+  padding-bottom: 20px;
   /* margin-top: 0px;
   padding-top: 20px; */
 }
@@ -32,8 +38,6 @@ body {
 .header h1 {
   color: rgb(26, 48, 48);
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-left: 40px;
   padding-bottom: 10px;
   text-align: left;
   border-bottom: 2px solid #6d4e1c;
@@ -43,11 +47,8 @@ body {
 
 .header h2 {
   color: rgb(62, 105, 105);
-  margin-left: 40px;
   text-align: left;
   font-family: Ruda, sans-serif;
-  /* font-size: 80%; */
-  margin-bottom: 25px;
 }
 
 .contact__info {
@@ -64,8 +65,8 @@ body {
 .avatar_img {
   display: block;
   position: absolute; 
-  height: 250px;
-  top: 10px;
+  height: 220px;
+  top: 20px;
   right: 10px;
 }
 
@@ -90,6 +91,36 @@ body {
   list-style-type: none;
 }
 
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(237, 236, 236);
+padding-top: 0;
+}
+
+.section-wrapper {
+  width: 80%;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.section-wrapper h3 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.section-items {
+  margin: 20px;
+  line-height: 30px;
+}
+.aside {
+  width: 20%;
+  background: #ccc;
+  position: relative;
+  top: -30px;
+}
 /* 
 
 .wrapper {
@@ -200,3 +231,6 @@ footer img {
   color: rgb(26, 25, 25);
   margin-left: 10px;
 } */
+
+
+/* @media 900px; */
